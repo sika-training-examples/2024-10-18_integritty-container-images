@@ -1,0 +1,4 @@
+:443 {
+  tls /.lego/certificates/local.sikademo.com.crt /.lego/certificates/local.sikademo.com.key
+  reverse_proxy http://php:80
+}
